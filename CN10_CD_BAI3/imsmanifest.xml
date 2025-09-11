@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="q0c1TUJFifNCD" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>2004 4th Edition</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:string>CN10_CD_BAI3</lom:string>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicalLearningTime>
+					<lom:duration>PT1H0M0S</lom:duration>
+				</lom:typicalLearningTime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="cn10_cd_bai3_organization">
+		<organization identifier="cn10_cd_bai3_organization">
+			<title>CN10_CD_BAI3</title>
+			<item identifier="B31E6A2F-2A3C-4911-BED4-FEF9420C3180" identifierref="resource">
+				<title>CN10_CD_BAI3</title>
+				<imsss:sequencing>
+					<imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true"/>
+			       	</imsss:sequencing>
+			</item>
+			<imsss:sequencing>
+				<imsss:controlMode flow="true"/>
+			</imsss:sequencing>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormType="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/img-0a5911e8fc66381bca337683bd0e53b8cdeedb27.png"/>
+<file href="res/data/images/img-1520fddc07fbcf96368daa5b59f2f06a1167f1d9.png"/>
+<file href="res/data/images/img-18c76343424412acd0925e3b79fb0f0acdf672e0.png"/>
+<file href="res/data/images/img-1a1fbfe789366691bd081cbadccc4ecb9aa3e15a.png"/>
+<file href="res/data/images/img-1b16de40efdb9aed3751407952c184b2fa711487.png"/>
+<file href="res/data/images/img-1dd93ea850c857502f5572d451d7047575aa9859.png"/>
+<file href="res/data/images/img-21af9356fa8469cd61a2db8e3f2e197937ebfe04.png"/>
+<file href="res/data/images/img-2cc510c5ddc0b3af4c3c8b0a45e54db5cb5183d2.png"/>
+<file href="res/data/images/img-59a5093979dba683bf9bd2f43f699e0ba8dfc9e2.png"/>
+<file href="res/data/images/img-7945993c8fbe3883ece93fc4df6964c5ff202b4c.png"/>
+<file href="res/data/images/img-7eec31e7bd904621b3fe34d522dea59ce00e6624.png"/>
+<file href="res/data/images/img-8dc56fa434478036004340b6e704c47a6883e912.png"/>
+<file href="res/data/images/img-8f7a8f97b5a05bf73110124ddaa987355c62dc6b.png"/>
+<file href="res/data/images/img-914943878a100d11dcc33391f0ec564c9ed14286.png"/>
+<file href="res/data/images/img-a4a3d892964b839ed6e374fba975f5410e7750af.png"/>
+<file href="res/data/images/img-a7021129b2fdeaa8c952999aa70609d53b5ef129.png"/>
+<file href="res/data/images/img-abd4523e66055c41e0a5e2ab086e621fcfbaf0e9.png"/>
+<file href="res/data/images/img-b5383c1ca2d4957c009612a797d0429612ed3e52.png"/>
+<file href="res/data/images/img-b795ea7580b98e3d4183180c974eaf87ccc2db82.png"/>
+<file href="res/data/images/img-bdf2f2f65a669a7dc43f747302b2c10134161171.png"/>
+<file href="res/data/images/img-c58ee5f13c1c149332fb1f26d32c1c2ed724e3ab.png"/>
+<file href="res/data/images/img-c60d11e4e8a4c7434376d521a4b6bb7b8fecb620.png"/>
+<file href="res/data/images/img-d32fbdf1a9a00e7827dceea3b21d5df2157bb366.png"/>
+<file href="res/data/images/img-df2f10048ed43f6a24c8c6b140403eff416e84c1.png"/>
+<file href="res/data/images/img-ee60a5d5fd565e82f60d7b6cf819bf9d2afcff19.png"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>

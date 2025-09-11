@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="TCYVoyM8EGt0d" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>2004 4th Edition</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:string>CN10_CD_BAI2</lom:string>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicalLearningTime>
+					<lom:duration>PT1H0M0S</lom:duration>
+				</lom:typicalLearningTime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="cn10_cd_bai2_organization">
+		<organization identifier="cn10_cd_bai2_organization">
+			<title>CN10_CD_BAI2</title>
+			<item identifier="C918C1E0-3C62-4F17-AFA8-255649670134" identifierref="resource">
+				<title>CN10_CD_BAI2</title>
+				<imsss:sequencing>
+					<imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true"/>
+			       	</imsss:sequencing>
+			</item>
+			<imsss:sequencing>
+				<imsss:controlMode flow="true"/>
+			</imsss:sequencing>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormType="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/img-13c42c745b6733e7624c4307c321c2edc4864c71.png"/>
+<file href="res/data/images/img-3f3f2aad51f15510b99709e2e48ab4459c426d2a.png"/>
+<file href="res/data/images/img-47a6a8938dcc7d7c59db3c245d3ff18b01a6cf63.png"/>
+<file href="res/data/images/img-78f93661493cd2e225735dd74fb632c86d9b46b1.png"/>
+<file href="res/data/images/img-8cfe0e4772178fd9e19d8f367dffc683f4eee716.png"/>
+<file href="res/data/images/img-92e0af516ba5e85599c19878ffaaddc1c4e69dc8.png"/>
+<file href="res/data/images/img-b74bdaa5bddcffff3f983cbc452929b64e2f2cb7.png"/>
+<file href="res/data/images/img-d7f9ddd767b3ee107cba4561a7a8831382a99693.png"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>

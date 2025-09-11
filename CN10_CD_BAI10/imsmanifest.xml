@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="JiDsKx4ldS1P5" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>2004 4th Edition</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:string>CN10_CD_BAI10</lom:string>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicalLearningTime>
+					<lom:duration>PT1H0M0S</lom:duration>
+				</lom:typicalLearningTime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="cn10_cd_bai10_organization">
+		<organization identifier="cn10_cd_bai10_organization">
+			<title>CN10_CD_BAI10</title>
+			<item identifier="B099FDB6-6C8E-4AAB-8BD1-5F6B9DDDDD56" identifierref="resource">
+				<title>CN10_CD_BAI10</title>
+				<imsss:sequencing>
+					<imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true"/>
+			       	</imsss:sequencing>
+			</item>
+			<imsss:sequencing>
+				<imsss:controlMode flow="true"/>
+			</imsss:sequencing>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormType="sco" href="res/index.html">
+			<file href="res/data/browsersupport.js"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/images/img-1adcbde725a55d721b549bcbf7db50a5a6a7d626.png"/>
+<file href="res/data/images/img-60574ec38f686536e8e3a46e5b8755b34f7f9e96.png"/>
+<file href="res/data/images/img-62b89fc7a8d867a3f0ae5094829e53ef57196679.jpg"/>
+<file href="res/data/images/img-83a0f584091c730fae58f73830e7a41afa1a54e9.png"/>
+<file href="res/data/images/img-9560ae530edfc7c01c36f29f2b7dde607898e017.jpg"/>
+<file href="res/data/images/img-ab1dec1c5e1131a8dcbee72cbdddf7d54734af6f.png"/>
+<file href="res/data/images/img-ac8fe16bfa67ad92b792433a07cc6a96a9ceec6d.png"/>
+<file href="res/data/images/img-ce97f889e5276c290c4d7cb1faedcc20d3a8c573.png"/>
+<file href="res/data/images/img-fac75a9187815e241eb129e626720914122371fc.png"/>
+<file href="res/data/images/quiz_bg_0.png"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>
