@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Learning | Công nghệ & Tin học</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <div class="container mx-auto p-6">
+    <h1 class="text-3xl font-bold mb-6 text-center">📘 E-Learning Môn học</h1>
+
+    <!-- Form thêm môn -->
+    <div class="bg-white p-4 rounded-2xl shadow mb-6">
+      <h2 class="text-xl font-semibold mb-2">Thêm môn học</h2>
+      <input id="subjectName" type="text" placeholder="Tên môn (VD: CN10 | Cánh Diều)" 
+             class="border p-2 rounded w-2/3">
+      <button onclick="addSubject()" 
+              class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+        ➕ Thêm môn
+      </button>
+    </div>
+
+    <!-- Danh sách môn -->
+    <div id="subjectsList" class="space-y-6"></div>
+  </div>
+
+  <script>
+  let subjects = [];
+
+  // Lưu dữ liệu vào localStorage
+  function saveData() {
+    localStorage.setItem("subjects", JSON.stringify(subjects));
+  }
+
+  // Load dữ liệu từ localStorage
+  function loadData() {
+    const data = localStorage.getItem("subjects");
+    if (data) {
+      subjects = JSON.parse(data);
+    } else {
+      // dữ liệu mặc định nếu lần đầu vào web
+      subjects = [
+        { name: "CN10 | Cánh Diều", lessons: ["CN10_CD_BAI1", "CN10_CD_BAI2", "CN10_CD_BAI3"] },
+        { name: "TIN10 | KNTT", lessons: ["TIN10_KNTT_BAI1", "TIN10_KNTT_BAI2", "TIN10_KNTT_BAI7"] }
+      ];
+    }
+    renderSubjects();
+  }
+
+  // Render toàn bộ môn
+  function renderSubjects() {
+    const list = document.getElementById("subjectsList");
+    list.innerHTML = "";
+    subjects.forEach((subj, subjIndex) => {
+      const subjDiv = document.createElement("div");
+      subjDiv.className = "bg-white p-4 rounded-2xl shadow";
+
+      subjDiv.innerHTML = `
+        <div class="flex justify-between items-center mb-2">
+          <h2 class="text-2xl font-bold">${subj.name}</h2>
+          <div>
+            <button onclick="editSubject(${subjIndex})" 
+              class="text-yellow-500 font-semibold mr-2">✏️ Sửa</button>
+            <button onclick="deleteSubject(${subjIndex})" 
+              class="text-red-500 font-semibold">🗑️ Xoá</button>
+          </div>
+        </div>
+        <ul id="lessons-${subjIndex}" class="list-disc ml-6 space-y-1">
+          ${subj.lessons.map((lesson, i) => `
+            <li>
+              <a href="${lesson}/res/index.html" class="text-blue-600 underline" target="_blank">${lesson}</a>
+              <button onclick="editLesson(${subjIndex}, ${i})" class="text-yellow-500 ml-2">✏️</button>
+              <button onclick="deleteLesson(${subjIndex}, ${i})" class="text-red-500 ml-1">🗑️</button>
+            </li>
+          `).join("")}
+        </ul>
+        <div class="mt-3">
+          <input id="lessonName-${subjIndex}" type="text" placeholder="Tên bài (VD: CN10_BAI1)" 
+                 class="border p-2 rounded w-2/3">
+          <button onclick="addLesson(${subjIndex})" 
+            class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+            ➕ Thêm bài
+          </button>
+        </div>
+      `;
+      list.appendChild(subjDiv);
+    });
+    saveData();
+  }
+
+  function addSubject() {
+    const name = document.getElementById("subjectName").value.trim();
+    if (name) {
+      subjects.push({ name, lessons: [] });
+      document.getElementById("subjectName").value = "";
+      renderSubjects();
+    }
+  }
+
+  function editSubject(index) {
+    const newName = prompt("Nhập tên môn mới:", subjects[index].name);
+    if (newName) {
+      subjects[index].name = newName;
+      renderSubjects();
+    }
+  }
+
+  function deleteSubject(index) {
+    if (confirm("Bạn có chắc muốn xoá môn này?")) {
+      subjects.splice(index, 1);
+      renderSubjects();
+    }
+  }
+
+  function addLesson(subjIndex) {
+    const input = document.getElementById(`lessonName-${subjIndex}`);
+    const lessonName = input.value.trim();
+    if (lessonName) {
+      subjects[subjIndex].lessons.push(lessonName);
+      input.value = "";
+      renderSubjects();
+    }
+  }
+
+  function editLesson(subjIndex, lessonIndex) {
+    const newLesson = prompt("Nhập tên bài mới:", subjects[subjIndex].lessons[lessonIndex]);
+    if (newLesson) {
+      subjects[subjIndex].lessons[lessonIndex] = newLesson;
+      renderSubjects();
+    }
+  }
+
+  function deleteLesson(subjIndex, lessonIndex) {
+    if (confirm("Bạn có chắc muốn xoá bài này?")) {
+      subjects[subjIndex].lessons.splice(lessonIndex, 1);
+      renderSubjects();
+    }
+  }
+
+  // Khi tải trang thì load data
+  loadData();
+</script>
+
+</body>
+</html>
