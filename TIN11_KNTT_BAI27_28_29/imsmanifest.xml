@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="Bc2BEV7zb3RkP" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:langstring>TIN11_KNTT_BAI27_28_29</lom:langstring>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="tin11_kntt_bai27_28_29_organization">
+		<organization identifier="tin11_kntt_bai27_28_29_organization">
+
+			<title>TIN11_KNTT_BAI27_28_29</title>
+			<item identifier="F5768530-B953-44EF-B55C-22E797D8067F" identifierref="resource">
+				<title>ÔN TẬP BÀI 27-28-29</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/images/img-0c3d788f6e3039e50117a9ada215ad8bac83b724.jpg"/>
+<file href="res/data/images/img-195e19cb27de6be82a6bbc96b6f06f0a0ebe7d01.png"/>
+<file href="res/data/images/img-2cbf2fe8e2d1251e9144724bc49afc5b0e4c9c58.png"/>
+<file href="res/data/images/img-325e77c5e34ec991df8a725831e5c5b6f72ddfca.png"/>
+<file href="res/data/images/img-3de36da14d630a087f939d57938b19d90dadec76.png"/>
+<file href="res/data/images/img-4011d9fec5be736118061aefc2ba13ca04053734.png"/>
+<file href="res/data/images/img-579e6fa4f64e4269c81ce22d41851744562d7620.png"/>
+<file href="res/data/images/img-774be41875f9625a48026cd0680fc920ebae1d54.png"/>
+<file href="res/data/images/img-79e03296f383e3f8db9363e3b313a307574d67df.png"/>
+<file href="res/data/images/img-93e5f907f35e85138be615ab780560a89aed5cf6.png"/>
+<file href="res/data/images/img-b39be60633b32ca5adce7ca70e1b2c65425f26eb.jpg"/>
+<file href="res/data/images/img-b4f9dc53f660f1879f3750f911b29c5fec8dff95.png"/>
+<file href="res/data/images/img-b767a13a26bdd0dc2d587b6403920c1427a609e7.jpg"/>
+<file href="res/data/images/img-de3918a8f4bccbd47547c07d05c89c220b1c2d80.png"/>
+<file href="res/data/images/img-e0a2b5c460032d34d2fba6b7cb0fa42dd2ecfaba.png"/>
+<file href="res/data/images/img-e5e8540b1ea940fc2ee7cfcb12b5045fbd752d16.jpg"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>

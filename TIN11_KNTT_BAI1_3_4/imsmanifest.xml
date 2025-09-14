@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="muKdBUUfiihL6" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:langstring>TIN11_KNTT_BAI1_3_4</lom:langstring>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="tin11_kntt_bai1_3_4_organization">
+		<organization identifier="tin11_kntt_bai1_3_4_organization">
+
+			<title>TIN11_KNTT_BAI1_3_4</title>
+			<item identifier="AC9CA1C3-9F31-4E35-8E1F-B4B70624B6C1" identifierref="resource">
+				<title>ÔN TẬP BÀI 1 - 3 - 4</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/images/643d-bb94-86e3-ca88.jpg"/>
+<file href="res/data/images/8f40-08a3-6546-2cd9.jpg"/>
+<file href="res/data/images/a2af-9145-e8e7-ceec.png"/>
+<file href="res/data/images/img-2f357200bcfdd31604dfd38046dd65c5ad57d94d.png"/>
+<file href="res/data/images/img-325e77c5e34ec991df8a725831e5c5b6f72ddfca.png"/>
+<file href="res/data/images/img-82de0771a8ea853c3d1db76f9dca0656cd2a90d5.jpg"/>
+<file href="res/data/images/img-ac83d8eaf23ff2f11375b83312e9f2c5ef60d6a0.png"/>
+<file href="res/data/images/img-af9070c36f0138f4c7bcbd28468973e03ad0c169.png"/>
+<file href="res/data/images/img-bee836d36567bf97a4e6a147f9e6698ce960a804.png"/>
+<file href="res/data/images/img-c4cc4e02a958f342dc4844991e4ac8c41d69ed69.jpg"/>
+<file href="res/data/images/img-d0974303abd6663bb13622b90e392d6a0f19d6a1.jpg"/>
+<file href="res/data/images/img-d46b27a7ab1b44dbd62729d1b2306a664bb80411.jpg"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>
