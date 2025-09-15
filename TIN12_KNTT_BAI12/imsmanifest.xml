@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="uo39bCM1YkVj3" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<lom:lom>
+			<lom:general>
+				<lom:title>
+					<lom:langstring>TIN12_KNTT_BAI12</lom:langstring>
+				</lom:title>
+			</lom:general>
+			<lom:educational>
+				<lom:typicallearningtime>
+				<lom:datetime>01:00:00</lom:datetime>
+				</lom:typicallearningtime>
+			</lom:educational>
+		</lom:lom>
+	</metadata>
+	<organizations default="tin12_kntt_bai12_organization">
+		<organization identifier="tin12_kntt_bai12_organization">
+
+			<title>TIN12_KNTT_BAI12</title>
+			<item identifier="A993CD46-45C2-44D7-870D-B14B55E2339D" identifierref="resource">
+				<title>BÀI 12. TẠO BIỂU MẪU</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+			<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fonts/fnt0.woff"/>
+<file href="res/data/fonts/fnt1.woff"/>
+<file href="res/data/fonts/fnt2.woff"/>
+<file href="res/data/fonts/fnt3.woff"/>
+<file href="res/data/goodbye.html"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/images/img-03c2875075a57443b3e2186881e27087a4e5aad0.png"/>
+<file href="res/data/images/img-0571bffd472ef7154773381cb7413ea3ebb68e84.png"/>
+<file href="res/data/images/img-0a95d8d52103921e532061b3355bceaf34510986.png"/>
+<file href="res/data/images/img-0cbb3e726b2499a9a7990734cfc304d5c64a4a33.png"/>
+<file href="res/data/images/img-10191facec4970ed903cff8e8209deaece836315.png"/>
+<file href="res/data/images/img-1051dfe88dbb55e9e68e5dd101a0903d9cf3a00a.png"/>
+<file href="res/data/images/img-15d38d5f9e5e305c9f0a9f797c1c5f56f98ac774.png"/>
+<file href="res/data/images/img-3104922759ba0bb195bdf684c4adadb7748eac62.png"/>
+<file href="res/data/images/img-4109b5b4a564b13f4da8fac90fd630328abb0425.png"/>
+<file href="res/data/images/img-44c22d5dfcd169d8ba2da6e3142e570f5c0f0503.jpg"/>
+<file href="res/data/images/img-53a8fc125aad8d10a2db7725d3a05ae98abfef7a.png"/>
+<file href="res/data/images/img-5c3bfa6c9195ad85dff77bb52432501cddc75917.png"/>
+<file href="res/data/images/img-64cfbedc2da99e053a87346ab7651d2db9c16248.jpg"/>
+<file href="res/data/images/img-67e177fbc7725f7c77c755d5ae938bec88609ea0.png"/>
+<file href="res/data/images/img-758bca26ebd3d146f1dd023851c08fda108a9661.jpg"/>
+<file href="res/data/images/img-981d9527da10f08abd8595b6263824de4236ce36.png"/>
+<file href="res/data/images/img-acc81584ef8abc55c43b73a775c0eeec6676a217.png"/>
+<file href="res/data/images/img-b59ee8f716913235c1143020b3f63b078d931e2f.png"/>
+<file href="res/data/images/img-b6d64a4261b4e2d0be797f1f9989375c627de316.jpg"/>
+<file href="res/data/images/img-b96b352f145f000d73f099cd7e028e3ebf7dd311.png"/>
+<file href="res/data/images/img-e404487a9833915889dd5f3e51047d70945f5d67.png"/>
+<file href="res/data/images/img-eb7eb42276e66255186d5334a3b0182bf3bec53b.png"/>
+<file href="res/data/images/img-f2037c74ef3981fa823a897c2d50a059f407b3a2.png"/>
+<file href="res/data/images/img-f4e5df54b48f2134a9a9f51cf3f1571a22378ee7.png"/>
+<file href="res/data/lms.js"/>
+<file href="res/data/player.js"/>
+<file href="res/index.html"/>
+
+		</resource>
+	</resources>
+</manifest>
